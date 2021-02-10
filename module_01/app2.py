@@ -21,4 +21,6 @@ print(slide4, end='\r')
 time.sleep(1)
 print(slide5, end='\r')
 time.sleep(1)
-print(slide6, end='\r')
+print(slide6)
+
+print('Версия 2')

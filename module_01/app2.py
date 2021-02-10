@@ -24,3 +24,4 @@ time.sleep(1)
 print(slide6)
 
 print('Версия 2')
+print('Версия 2.1')

@@ -15,4 +15,5 @@ def get_absolute_url(url, *args, **kwargs):
     return print_url
 
 
-print(get_absolute_url('www.google.com','home','story','teller',id=12,story='redhat',list=44))
+print(get_absolute_url('www.yandex.ru', 'posts', 'news', id='24', author='admin'))
+print(get_absolute_url('www.google.com', 'images', id='24', category='auto', color='red', size='small'))

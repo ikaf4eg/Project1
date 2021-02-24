@@ -15,4 +15,4 @@ def get_absolute_url(url, *args, **kwargs):
     return print_url
 
 
-print(get_absolute_url('www.google.com','home','story','teller',id=12,story=17,list=44))
+print(get_absolute_url('www.google.com','home','story','teller',id=12,story='redhat',list=44))

@@ -56,7 +56,6 @@ for element in sales_log:
 
 sales_counter = Counter(sales_dict) # Создаем объект Counter из полученного словаря и используем метод most_common
 print(f'Самый популярный товар: {sales_counter.most_common(1)[0][0]}. Количество продаж: {sales_counter.most_common(1)[0][1]}')
-print(f'Самый популярный товар: {sales_counter.most_common(1)[1][0]}. Количество продаж: {sales_counter.most_common(1)[1][1]}')
 
 # Код программы сильно сократился!!!
 
